@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Gen Technologies : Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <Section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.ico" alt="" srcset="">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()">close</i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                 
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()">open</i>
+        </nav>
+        <h1>About Us</h1>
+
+    </Section>
+
+    <!-- About Us Content -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are Largest IT Institute In Satara</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatem eaque accusantium blanditiis illo dolorem unde nihil dolore numquam nesciunt, quod consectetur corporis? Ad qui voluptas, ipsum voluptate consectetur odio!</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="/images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minima, blanditiis officia, minus doloremque sapiente voluptatibus quibusdam ullam dolore dicta aliquam nisi laboriosam cupiditate itaque incidunt corporis asperiores qui nulla.</p>
+        <p>Made With GodeGen Technologies</p>
+    </section>
+
+
+    <!-- Javascript   -->
+
+    <Script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu(){
+            navLinks.style.right = "0px"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </Script>
+</body>
+</html>
